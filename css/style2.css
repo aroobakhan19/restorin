@@ -1,0 +1,25 @@
+.menu-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Space between menu items */
+}
+
+.menu-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px; /* Rounded corners for images */
+    margin-right: 20px;
+}
+
+.menu-item-details {
+    flex-grow: 1; /* Allow details to take up available space */
+}
+
+.menu-item-details h5 {
+    margin-bottom: 5px;
+}
+
+.menu-item-details small {
+    font-style: italic;
+    color: #777; /* Slightly lighter text for description */
+}
